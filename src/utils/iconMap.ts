@@ -3,6 +3,7 @@
  * Maps icon name strings to Lucide React icon components
  */
 
+import React from 'react';
 import {
   Code, Cloud, Brain, Database, Smartphone, Shield, Zap, Globe,
   BarChart3, Settings, Cpu, Video, PenTool, BookOpen, Briefcase,

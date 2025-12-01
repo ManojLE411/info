@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Mail, Phone, Send, MessageCircle } from 'lucide-react';
+import { MapPin, Mail, Phone, Send } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import styles from './ContactPage.module.css';
 
