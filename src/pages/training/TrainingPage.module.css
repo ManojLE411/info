@@ -1,0 +1,457 @@
+/* TrainingPage Styles - Modern & Clean Design */
+
+.pageContainer {
+  background-color: rgb(2, 6, 23);
+  color: rgb(241, 245, 249);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Hero Section */
+.heroSection {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4rem 1rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .heroSection {
+    min-height: 65vh;
+    padding: 5rem 2rem 4rem;
+  }
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(15, 23, 42, 0.9) 100%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.heroBadge:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroTitle {
+    font-size: 5rem;
+  }
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  color: rgb(226, 232, 240);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .heroDescription {
+    font-size: 1.25rem;
+  }
+}
+
+.heroScrollIndicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scrollDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Main Content */
+.mainContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .mainContent {
+    padding: 5rem 2rem;
+  }
+}
+
+/* Section Header */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(148, 163, 184);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size: 3.5rem;
+  }
+}
+
+.sectionDescription {
+  font-size: 1.125rem;
+  color: rgb(203, 213, 225);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Programs Grid */
+.programsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .programsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.programCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.programCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.programCardInstitutional {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.programCardInstitutional::before {
+  background: linear-gradient(180deg, rgb(59, 130, 246), rgb(37, 99, 235));
+}
+
+.programCardCorporate {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.programCardCorporate::before {
+  background: linear-gradient(180deg, rgb(148, 163, 184), rgb(100, 116, 139));
+}
+
+.programCard:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+}
+
+.programCard:hover::before {
+  opacity: 1;
+}
+
+.programIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.programCard:hover .programIcon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.programIconInstitutional {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
+}
+
+.programIconCorporate {
+  background: linear-gradient(135deg, rgb(100, 116, 139), rgb(71, 85, 105));
+}
+
+.programTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.programDescription {
+  color: rgb(203, 213, 225);
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-size: 0.9375rem;
+}
+
+.programFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: rgb(203, 213, 225);
+  margin-bottom: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.programFeature {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.programFeatureDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  flex-shrink: 0;
+}
+
+.programFeatureDotInstitutional {
+  background: rgb(96, 165, 250);
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+}
+
+.programFeatureDotCorporate {
+  background: rgb(148, 163, 184);
+  box-shadow: 0 0 8px rgba(148, 163, 184, 0.5);
+}
+
+.programButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding: 0.875rem 1.75rem;
+  border: 1px solid;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+}
+
+.programButtonInstitutional {
+  border-color: rgb(59, 130, 246);
+  color: rgb(147, 197, 253);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.programButtonInstitutional:hover {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
+  color: white;
+  border-color: rgb(59, 130, 246);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(59, 130, 246, 0.4);
+}
+
+.programButtonCorporate {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: rgb(203, 213, 225);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.programButtonCorporate:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+/* CTA Section */
+.ctaSection {
+  margin-top: 4rem;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(139, 92, 246, 0.15));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.5rem;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaPattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+  opacity: 0.5;
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 10;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaIconWrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ctaIcon {
+  color: rgb(96, 165, 250);
+  filter: drop-shadow(0 4px 12px rgba(96, 165, 250, 0.3));
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .ctaTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.ctaDescription {
+  max-width: 42rem;
+  margin: 0 auto 2rem;
+  color: rgb(226, 232, 240);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(139, 92, 246));
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px -2px rgba(59, 130, 246, 0.3);
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(59, 130, 246, 0.4);
+}
+
+.ctaButton:active {
+  transform: translateY(0);
+}
