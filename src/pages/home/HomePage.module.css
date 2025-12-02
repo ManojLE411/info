@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
 }
 
 /* Hero Section */
@@ -13,7 +13,7 @@
   height: 85vh;
   min-height: 640px;
   overflow: hidden;
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4 0%, #0EA5E9 50%, #8B5CF6 100%);
 }
 
 @media (min-width: 640px) {
@@ -38,14 +38,14 @@
 .slideOverlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(30, 58, 138, 0.7);
+  background-color: rgba(6, 182, 212, 0.6);
   mix-blend-mode: multiply;
 }
 
 .slideGradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent, rgba(30, 58, 138, 0.9));
+  background: linear-gradient(to bottom, transparent, rgba(6, 182, 212, 0.8));
 }
 
 .heroContent {
@@ -128,18 +128,18 @@
 .primaryButton {
   position: relative;
   padding: 1rem 2rem;
-  background: linear-gradient(to right, rgb(37, 99, 235), rgb(79, 70, 229));
+  background: linear-gradient(to right, #06B6D4, #0EA5E9);
   border-radius: 9999px;
   color: white;
   font-weight: 600;
   font-size: 1.125rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.3);
   transition: all 0.3s;
   overflow: hidden;
 }
 
 .primaryButton:hover {
-  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.5);
+  box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.5);
 }
 
 .primaryButtonContent {
@@ -157,7 +157,7 @@
 .primaryButtonOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, rgb(79, 70, 229), rgb(37, 99, 235));
+  background: linear-gradient(to right, #0EA5E9, #06B6D4);
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -211,9 +211,9 @@
 /* Competencies Section */
 .competenciesSection {
   padding: 5rem 0;
-  background-color: rgb(15, 23, 42);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border-top: 1px solid #E5E7EB;
+  border-bottom: 1px solid #E5E7EB;
   transition: all 1s;
   transform: translateY(0);
   opacity: 1;
@@ -251,7 +251,7 @@
 .competenciesTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
 }
 
 @media (min-width: 768px) {
@@ -263,7 +263,7 @@
 .competenciesDescription {
   margin-top: 1rem;
   font-size: 1.125rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   max-width: 42rem;
   margin-left: auto;
   margin-right: auto;
@@ -289,13 +289,14 @@
 
 .competencyCard {
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #FFFFFF;
   border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid #E5E7EB;
   transition: all 0.5s;
   cursor: pointer;
   transform: translateY(0);
   opacity: 1;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 .competencyCardHidden {
@@ -304,13 +305,14 @@
 }
 
 .competencyCard:hover {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px);
 }
 
 .competencyIconContainer {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(30, 58, 138, 0.2);
+  background-color: rgba(6, 182, 212, 0.1);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -320,13 +322,13 @@
 }
 
 .competencyCard:hover .competencyIconContainer {
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
 }
 
 .competencyIcon {
   width: 1.75rem;
   height: 1.75rem;
-  color: #1E3A8A;
+  color: #06B6D4;
   transition: color 0.2s;
 }
 
@@ -337,18 +339,18 @@
 .competencyTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 0.75rem;
 }
 
 .competencyDescription {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 /* Stats Section */
 .statsSection {
   padding: 4rem 0;
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4 0%, #0EA5E9 100%);
   color: white;
   transition: all 1s;
   transform: scale(1);
@@ -406,7 +408,7 @@
 .statValue {
   font-size: 2.25rem;
   font-weight: 700;
-  color: #60A5FA;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
@@ -418,7 +420,7 @@
 
 .statLabel {
   font-size: 0.875rem;
-  color: rgb(191, 219, 254);
+  color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -432,7 +434,7 @@
 /* Testimonials Section */
 .testimonialsSection {
   padding: 5rem 0;
-  background-color: rgb(15, 23, 42);
+  background-color: #F5F5F7;
   overflow: hidden;
 }
 
@@ -468,12 +470,12 @@
 .testimonialsTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
 }
 
 .testimonialsSubtitle {
   margin-top: 0.5rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .testimonialsContainer {
@@ -497,17 +499,17 @@
 }
 
 .testimonialCard {
-  background-color: rgba(255, 255, 255, 0.05);
-  color: rgb(241, 245, 249);
+  background-color: #FFFFFF;
+  color: #111827;
   padding: 2rem;
   border-radius: 0.75rem;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   min-width: 350px;
   scroll-snap-align: center;
   transition: all 0.7s;
   transform: translateX(0);
   opacity: 1;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid #E5E7EB;
 }
 
 @media (min-width: 768px) {
@@ -541,16 +543,16 @@
 
 .testimonialName {
   font-weight: 700;
-  color: white;
+  color: #111827;
 }
 
 .testimonialTitle {
   font-size: 0.75rem;
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
 }
 
 .testimonialQuote {
-  color: rgb(226, 232, 240);
+  color: #6B7280;
   font-style: italic;
 }
 

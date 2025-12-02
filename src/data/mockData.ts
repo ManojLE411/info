@@ -104,36 +104,36 @@ export const mockServices: Service[] = [
 export const mockTestimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Dr. Sarah Johnson',
-    title: 'CEO, TechInnovate Solutions',
+    name: 'Dr. Sarita Sharma',
+    title: 'CEO, TechVani Solutions',
     quote: 'IMTDA transformed our digital infrastructure. Their team delivered a scalable cloud solution that reduced our operational costs by 40%. Exceptional service and expertise.',
     avatar: 'https://i.pravatar.cc/150?img=47'
   },
   {
     id: '2',
     name: 'Rajesh Kumar',
-    title: 'CTO, EduTech Global',
+    title: 'CTO, ShikshaTech India',
     quote: 'Working with IMTDA was a game-changer. They built our learning management system with cutting-edge AI features. The platform has improved student engagement significantly.',
     avatar: 'https://i.pravatar.cc/150?img=12'
   },
   {
     id: '3',
-    name: 'Emily Chen',
-    title: 'Product Manager, FinanceFlow',
+    name: 'Arpita Das',
+    title: 'Product Manager, PayBharat',
     quote: 'IMTDA\'s expertise in fintech solutions is outstanding. They delivered a secure, compliant payment platform ahead of schedule. Highly recommended for enterprise projects.',
     avatar: 'https://i.pravatar.cc/150?img=45'
   },
   {
     id: '4',
-    name: 'Michael Rodriguez',
-    title: 'Director, LogisticsPro',
+    name: 'Aditya Verma',
+    title: 'Director, BharatLogistics',
     quote: 'The AI-powered logistics system IMTDA developed has revolutionized our operations. Real-time tracking and predictive analytics have improved our efficiency dramatically.',
     avatar: 'https://i.pravatar.cc/150?img=33'
   },
   {
     id: '5',
     name: 'Priya Sharma',
-    title: 'Founder, HealthCare Connect',
+    title: 'Founder, ArogyaConnect',
     quote: 'IMTDA built our telemedicine platform with exceptional attention to security and user experience. The system handles thousands of consultations daily without issues.',
     avatar: 'https://i.pravatar.cc/150?img=52'
   }
@@ -203,15 +203,15 @@ export const mockProjects: Project[] = [
     id: '2',
     title: 'E-Commerce Marketplace',
     category: 'Web',
-    description: 'A full-featured e-commerce platform with real-time inventory management, payment integration, and advanced search capabilities.',
-    techStack: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'Stripe', 'Redis'],
+    description: 'A full-featured e-commerce platform with real-time inventory management, payment integration (UPI, Razorpay), and advanced search capabilities for Indian marketplaces.',
+    techStack: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'Razorpay', 'Redis'],
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80'
   },
   {
     id: '3',
     title: 'IoT Smart Home System',
     category: 'IoT',
-    description: 'Comprehensive IoT solution for smart home automation with mobile app control, voice integration, and energy monitoring.',
+    description: 'Comprehensive IoT solution for smart home automation with mobile app control, voice integration (Hindi/English), and energy monitoring for Indian households.',
     techStack: ['React Native', 'MQTT', 'Node.js', 'MongoDB', 'AWS IoT', 'Raspberry Pi'],
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80'
   },
@@ -227,7 +227,7 @@ export const mockProjects: Project[] = [
     id: '5',
     title: 'Predictive Analytics Dashboard',
     category: 'Data Science',
-    description: 'Business intelligence platform with predictive analytics, real-time dashboards, and automated reporting for data-driven decisions.',
+    description: 'Business intelligence platform with predictive analytics, real-time dashboards, and automated reporting for data-driven decisions. Built for Indian enterprises and startups.',
     techStack: ['Python', 'Pandas', 'React', 'D3.js', 'PostgreSQL', 'Apache Spark'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80'
   },
@@ -235,7 +235,7 @@ export const mockProjects: Project[] = [
     id: '6',
     title: 'Cloud Migration Platform',
     category: 'Web',
-    description: 'Enterprise cloud migration tool that automates the process of moving applications and data to AWS with minimal downtime.',
+    description: 'Enterprise cloud migration tool that automates the process of moving applications and data to AWS with minimal downtime. Designed for Indian businesses transitioning to cloud infrastructure.',
     techStack: ['React', 'Python', 'AWS', 'Docker', 'Kubernetes', 'Terraform'],
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80'
   }
@@ -248,7 +248,7 @@ export const mockJobs: Job[] = [
     department: 'Engineering',
     type: 'Full-time',
     location: 'Hybrid',
-    description: 'We are looking for an experienced full-stack developer to join our engineering team.'
+    description: 'We are looking for an experienced full-stack developer to join our engineering team in Bangalore. Work with cutting-edge technologies and help build scalable web applications for Indian and global markets.'
   },
   {
     id: '2',
@@ -256,7 +256,7 @@ export const mockJobs: Job[] = [
     department: 'AI Research',
     type: 'Full-time',
     location: 'Remote',
-    description: 'Join our AI team to build cutting-edge machine learning solutions.'
+    description: 'Join our AI team to build cutting-edge machine learning solutions. Work from anywhere in India and contribute to innovative AI projects serving Indian businesses and beyond.'
   },
   {
     id: '3',
@@ -264,7 +264,7 @@ export const mockJobs: Job[] = [
     department: 'Infrastructure',
     type: 'Full-time',
     location: 'On-site',
-    description: 'Help us scale our infrastructure and improve our deployment processes.'
+    description: 'Help us scale our infrastructure and improve our deployment processes at our Mumbai office. Work with cloud technologies and modern DevOps practices in a fast-paced environment.'
   },
   {
     id: '4',
@@ -272,7 +272,7 @@ export const mockJobs: Job[] = [
     department: 'Design',
     type: 'Part-time',
     location: 'Remote',
-    description: 'Create beautiful and intuitive user interfaces for our products.'
+    description: 'Create beautiful and intuitive user interfaces for our products. Flexible remote work from anywhere in India. Design experiences that resonate with Indian users and global audiences.'
   }
 ];
 
@@ -309,10 +309,10 @@ export const mockInternships: InternshipTrack[] = [
       'Portfolio building and presentation'
     ],
     whoShouldApply: [
-      'Computer Science students or graduates',
-      'Career switchers looking to enter tech',
+      'Computer Science students or graduates from Indian universities',
+      'Career switchers looking to enter tech industry in India',
       'Self-taught developers seeking structured learning',
-      'Anyone passionate about web development'
+      'Anyone passionate about web development in the Indian market'
     ],
     careerOutcomes: [
       'Full Stack Developer positions',
@@ -353,10 +353,10 @@ export const mockInternships: InternshipTrack[] = [
       'Final ML project presentation'
     ],
     whoShouldApply: [
-      'Students with strong mathematics background',
-      'Software developers interested in AI/ML',
-      'Data analysts looking to advance their skills',
-      'Researchers exploring AI applications'
+      'Students with strong mathematics background from Indian institutions',
+      'Software developers interested in AI/ML working in India',
+      'Data analysts looking to advance their skills in the Indian market',
+      'Researchers exploring AI applications in Indian context'
     ],
     careerOutcomes: [
       'Machine Learning Engineer roles',
@@ -396,10 +396,10 @@ export const mockInternships: InternshipTrack[] = [
       'Final project: Complete chip design and verification'
     ],
     whoShouldApply: [
-      'Electronics/ECE engineering students',
-      'Graduates interested in semiconductor industry',
-      'Hardware engineers looking to specialize',
-      'Anyone interested in chip design'
+      'Electronics/ECE engineering students from Indian colleges',
+      'Graduates interested in semiconductor industry in India',
+      'Hardware engineers looking to specialize in VLSI design',
+      'Anyone interested in chip design and verification in Indian context'
     ],
     careerOutcomes: [
       'VLSI Design Engineer positions',
@@ -440,10 +440,10 @@ export const mockInternships: InternshipTrack[] = [
       'Final design project presentation'
     ],
     whoShouldApply: [
-      'Mechanical engineering students',
-      'Design engineers seeking skill enhancement',
+      'Mechanical engineering students from Indian institutions',
+      'Design engineers seeking skill enhancement in Indian industries',
       'Drafters looking to upgrade to 3D modeling',
-      'Manufacturing professionals'
+      'Manufacturing professionals working in Indian companies'
     ],
     careerOutcomes: [
       'Mechanical Design Engineer roles',
@@ -459,7 +459,7 @@ export const mockTrainingPrograms: TrainingProgram[] = [
     id: '1',
     title: 'Institutional Training Programs',
     category: 'Institutional',
-    description: 'Comprehensive training programs designed for educational institutions to upskill students in cutting-edge technologies.',
+    description: 'Comprehensive training programs designed for Indian educational institutions to upskill students in cutting-edge technologies.',
     features: [
       'Customized curriculum for colleges',
       'Industry-aligned course content',
@@ -473,7 +473,7 @@ export const mockTrainingPrograms: TrainingProgram[] = [
     id: '2',
     title: 'Corporate Training Solutions',
     category: 'Corporate',
-    description: 'Professional development programs for organizations to enhance their team\'s technical capabilities and stay competitive.',
+    description: 'Professional development programs for Indian organizations to enhance their team\'s technical capabilities and stay competitive in the market.',
     features: [
       'Tailored training for your team',
       'Flexible scheduling options',
@@ -501,7 +501,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Machine learning algorithms can grade assignments, provide instant feedback, and identify areas where students need additional support.</p>
       
       <h2>Conclusion</h2>
-      <p>The integration of AI in education promises to make learning more accessible, efficient, and effective for students worldwide.</p>
+      <p>The integration of AI in education promises to make learning more accessible, efficient, and effective for students across India and beyond.</p>
     `,
     author: 'Dr. Anil Kumar',
     date: 'March 15, 2024',
@@ -523,7 +523,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Choosing the right database, implementing caching strategies, and optimizing queries are critical for performance.</p>
       
       <h2>Conclusion</h2>
-      <p>Building scalable applications requires careful planning, the right technology choices, and continuous optimization.</p>
+      <p>Building scalable applications requires careful planning, the right technology choices, and continuous optimization. This is especially crucial for Indian startups and enterprises serving millions of users.</p>
     `,
     author: 'Sneha Patel',
     date: 'March 10, 2024',
@@ -545,7 +545,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Lift-and-shift, re-platforming, and refactoring are common approaches, each with its own benefits and trade-offs.</p>
       
       <h2>Conclusion</h2>
-      <p>A well-planned cloud migration can reduce costs, improve scalability, and enhance security for your organization.</p>
+      <p>A well-planned cloud migration can reduce costs, improve scalability, and enhance security for Indian organizations looking to modernize their infrastructure.</p>
     `,
     author: 'Vikram Reddy',
     date: 'March 5, 2024',
@@ -564,7 +564,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Supervised learning, unsupervised learning, and reinforcement learning are the three main types of machine learning approaches.</p>
       
       <h2>Getting Started</h2>
-      <p>Start with Python, learn the basics of data manipulation, and work on simple projects to build your ML skills.</p>
+      <p>Start with Python, learn the basics of data manipulation, and work on simple projects to build your ML skills. Many Indian universities and online platforms offer excellent ML courses.</p>
       
       <h2>Conclusion</h2>
       <p>Machine learning offers exciting opportunities for solving complex problems and creating intelligent applications.</p>
@@ -589,7 +589,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Minimalism, dark mode, micro-interactions, and accessibility are shaping modern design trends.</p>
       
       <h2>Conclusion</h2>
-      <p>Great design balances aesthetics with functionality, creating products that users love to interact with.</p>
+      <p>Great design balances aesthetics with functionality, creating products that users love to interact with. This is particularly important in the Indian market where diverse user needs and preferences must be considered.</p>
     `,
     author: 'Anjali Desai',
     date: 'February 20, 2024',
@@ -611,7 +611,7 @@ export const mockBlogPosts: BlogPost[] = [
       <p>Managing infrastructure through code enables version control, reproducibility, and easier scaling.</p>
       
       <h2>Conclusion</h2>
-      <p>Adopting DevOps practices transforms how teams build, deploy, and maintain software systems.</p>
+      <p>Adopting DevOps practices transforms how teams build, deploy, and maintain software systems. Indian IT companies are increasingly adopting these practices to improve their delivery speed and quality.</p>
     `,
     author: 'Vikram Reddy',
     date: 'February 15, 2024',

@@ -1,14 +1,14 @@
 /* AboutPage Styles */
 .pageContainer {
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
 }
 
 /* Hero Section */
 .heroSection {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to bottom right, rgb(15, 23, 42), rgb(30, 58, 138));
+  background: linear-gradient(to bottom right, #06B6D4, #0EA5E9);
 }
 
 .heroBackground {
@@ -49,7 +49,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
   margin-bottom: 1rem;
 }
 
@@ -75,7 +75,7 @@
 .heroDescription {
   max-width: 48rem;
   font-size: 1.125rem;
-  color: rgb(226, 232, 240);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 2rem;
 }
 
@@ -89,7 +89,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
@@ -174,8 +174,8 @@
 }
 
 .statCard {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
@@ -184,19 +184,19 @@
 .statValue {
   font-size: 2.25rem;
   font-weight: 700;
-  color: white;
+  color: #06B6D4;
 }
 
 .statLabel {
   font-size: 1.125rem;
   font-weight: 600;
-  color: rgb(226, 232, 240);
+  color: #111827;
   margin-top: 0.5rem;
 }
 
 .statDescription {
   font-size: 0.875rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   margin-top: 0.5rem;
 }
 
@@ -206,8 +206,8 @@
   grid-template-columns: 1fr;
   gap: 2.5rem;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   padding: 2rem;
 }
@@ -221,12 +221,12 @@
 .sectionTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .sectionText {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.75;
   margin-bottom: 1.5rem;
 }
@@ -236,7 +236,7 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .tag {
@@ -257,8 +257,8 @@
   gap: 1rem;
   padding: 1rem;
   border-radius: 1rem;
-  background: linear-gradient(to right, rgba(30, 58, 138, 0.6), rgba(15, 23, 42, 0.6));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to right, rgba(6, 182, 212, 0.1), rgba(14, 165, 233, 0.1));
+  border: 1px solid #E5E7EB;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
@@ -276,7 +276,7 @@
   justify-content: center;
   padding: 0.75rem;
   border-radius: 0.75rem;
-  background-color: rgb(229, 231, 235);
+  background-color: rgba(6, 182, 212, 0.1);
   min-width: 3rem;
   min-height: 3rem;
   width: 3rem;
@@ -297,7 +297,7 @@
 .featureIcon svg {
   width: 1.5rem;
   height: 1.5rem;
-  color: #1E3A8A;
+  color: #06B6D4;
 }
 
 @media (min-width: 640px) {
@@ -310,12 +310,12 @@
 .featureTitle {
   font-size: 1.125rem;
   font-weight: 600;
-  color: white;
+  color: #111827;
 }
 
 .featureDescription {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 /* Principles Section */
@@ -335,12 +335,12 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
 }
 
 .principlesDivider {
   flex: 1;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #E5E7EB;
 }
 
 .principlesGrid {
@@ -356,8 +356,8 @@
 }
 
 .principleCard {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   padding: 1.5rem;
   display: flex;
@@ -374,24 +374,24 @@
 .principleIcon {
   width: 1.25rem;
   height: 1.25rem;
-  color: #1E3A8A;
+  color: #06B6D4;
 }
 
 .principleTitle {
   font-size: 1.25rem;
   font-weight: 600;
-  color: white;
+  color: #111827;
 }
 
 .principleText {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .principleTagline {
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: rgb(100, 116, 139);
+  color: #9CA3AF;
   letter-spacing: 0.05em;
 }
 
@@ -425,17 +425,17 @@
 .teamIcon {
   width: 2rem;
   height: 2rem;
-  color: #1E3A8A;
+  color: #06B6D4;
 }
 
 .teamTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
 }
 
 .teamDescription {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   max-width: 42rem;
 }
 
@@ -443,7 +443,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  color: rgb(100, 116, 139);
+  color: #9CA3AF;
 }
 
 /* Loading & Empty States */
@@ -459,15 +459,15 @@
 
 
 .emptyContainer {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
 }
 
 .loadingIcon {
   width: 3rem;
   height: 3rem;
-  color: #1E3A8A;
+  color: #06B6D4;
   animation: spin 1s linear infinite;
   margin-bottom: 1rem;
 }
@@ -484,13 +484,13 @@
 .emptyIcon {
   width: 3rem;
   height: 3rem;
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
   margin-bottom: 1rem;
 }
 
 .loadingText,
 .emptyText {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .emptyText {
@@ -518,8 +518,8 @@
 
 .memberCard {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -550,7 +550,7 @@
 .memberImageOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(15, 23, 42, 0.9), transparent);
+  background: linear-gradient(to top, rgba(6, 182, 212, 0.7), transparent);
   opacity: 0;
   transition: opacity 0.2s;
 }
@@ -569,18 +569,18 @@
 .memberName {
   font-size: 1.25rem;
   font-weight: 600;
-  color: white;
+  color: #111827;
 }
 
 .memberRole {
   font-size: 0.875rem;
   font-weight: 500;
-  color: #1E3A8A;
+  color: #06B6D4;
 }
 
 .memberSummary {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .memberSkills {
@@ -588,13 +588,13 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   font-size: 0.75rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .skillTag {
   padding: 0.25rem 0.75rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(6, 182, 212, 0.1);
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #E5E7EB;
 }
 

@@ -171,10 +171,10 @@ export const ProjectsPage: React.FC = () => {
                     <button onClick={() => handleViewProject(project)} className={styles.viewDetailsButton}>
                       View Details <FolderOpen className={styles.viewDetailsIcon} />
                     </button>
-                    <div className={styles.projectLinks}>
+                    {/* <div className={styles.projectLinks}>
                       <a href="#" className={styles.projectLink} title="GitHub"><Github size={18} /></a>
                       <a href="#" className={styles.projectLink} title="Live Demo"><ExternalLink size={18} /></a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </article>

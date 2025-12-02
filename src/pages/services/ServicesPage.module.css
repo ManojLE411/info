@@ -1,7 +1,7 @@
 /* ServicesPage Styles */
 .pageContainer {
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
   min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@
 .heroSection {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to bottom right, rgb(15, 23, 42), rgb(30, 58, 138));
+  background: linear-gradient(to bottom right, #06B6D4, #0EA5E9);
 }
 
 .heroBackground {
@@ -47,7 +47,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  color: rgb(148, 163, 184);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 1rem;
 }
 
@@ -73,7 +73,7 @@
 .heroDescription {
   max-width: 48rem;
   font-size: 1.125rem;
-  color: rgb(226, 232, 240);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 2rem;
 }
 
@@ -87,7 +87,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
@@ -97,7 +97,8 @@
 }
 
 .primaryButton:hover {
-  background-color: rgb(59, 130, 246);
+  background: linear-gradient(to right, #0EA5E9, #06B6D4);
+  box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.5);
 }
 
 .secondaryButton {
@@ -119,7 +120,7 @@
 /* Services Section */
 .servicesSection {
   padding: 5rem 0;
-  background-color: rgb(2, 6, 23);
+  background-color: #FFFFFF;
 }
 
 .servicesContainer {
@@ -149,7 +150,7 @@
 .servicesTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -161,7 +162,7 @@
 
 .servicesDescription {
   font-size: 1.125rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   max-width: 42rem;
   margin-left: auto;
   margin-right: auto;
@@ -193,8 +194,8 @@
 }
 
 .serviceCard {
-  background: linear-gradient(135deg, rgba(30, 58, 138, 0.1) 0%, rgba(15, 23, 42, 0.5) 100%);
-  border: 1px solid rgba(30, 58, 138, 0.2);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
   padding: 2rem;
   transition: all 0.3s ease;
@@ -213,15 +214,15 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #1E3A8A, rgb(59, 130, 246));
+  background: linear-gradient(90deg, #06B6D4, #0EA5E9);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 
 .serviceCard:hover {
-  border-color: rgba(30, 58, 138, 0.4);
+  border-color: rgba(6, 182, 212, 0.4);
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -10px rgba(30, 58, 138, 0.3);
+  box-shadow: 0 20px 40px -10px rgba(6, 182, 212, 0.3);
 }
 
 .serviceCard:hover::before {
@@ -231,19 +232,19 @@
 .serviceIconContainer {
   width: 3.5rem;
   height: 3.5rem;
-  background: linear-gradient(135deg, #1E3A8A 0%, rgb(59, 130, 246) 100%);
+  background: linear-gradient(135deg, #06B6D4 0%, #0EA5E9 100%);
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
 }
 
 .serviceCard:hover .serviceIconContainer {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
+  box-shadow: 0 6px 20px rgba(6, 182, 212, 0.4);
 }
 
 .serviceIcon {
@@ -255,14 +256,14 @@
 .serviceTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin: 0;
   line-height: 1.3;
   letter-spacing: -0.02em;
 }
 
 .serviceDescription {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.6;
   font-size: 0.9rem;
   flex: 1;
@@ -273,7 +274,7 @@
   margin-top: 0.5rem;
   font-size: 0.875rem;
   font-weight: 600;
-  color: rgb(96, 165, 250);
+  color: #06B6D4;
   transition: all 0.2s ease;
   display: inline-flex;
   align-items: center;
@@ -286,7 +287,7 @@
 }
 
 .serviceButton:hover {
-  color: rgb(147, 197, 253);
+  color: #0EA5E9;
   gap: 0.75rem;
 }
 
@@ -301,9 +302,9 @@
 /* Process Section */
 .processSection {
   padding: 5rem 0;
-  background-color: rgb(15, 23, 42);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #F5F5F7;
+  border-top: 1px solid #E5E7EB;
+  border-bottom: 1px solid #E5E7EB;
 }
 
 .processContainer {
@@ -333,7 +334,7 @@
 .processTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -345,7 +346,7 @@
 
 .processDescription {
   font-size: 1.125rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   max-width: 42rem;
   margin-left: auto;
   margin-right: auto;
@@ -371,8 +372,8 @@
 
 .processCard {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
   padding: 2rem;
   height: 100%;
@@ -389,20 +390,20 @@
 .processStepNumber {
   font-size: 3rem;
   font-weight: 700;
-  color: #1E3A8A;
+  color: #06B6D4;
   margin-bottom: 1rem;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .processStepTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .processStepDescription {
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.75;
 }
 
@@ -424,13 +425,13 @@
 .processConnectorLine {
   width: 2rem;
   height: 2px;
-  background: linear-gradient(to right, #1E3A8A, transparent);
+  background: linear-gradient(to right, #06B6D4, transparent);
 }
 
 .processConnectorIcon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #1E3A8A;
+  color: #06B6D4;
   position: absolute;
   right: -0.5rem;
   top: -0.5rem;
@@ -439,7 +440,7 @@
 /* CTA Section */
 .ctaSection {
   padding: 5rem 0;
-  background-color: rgb(2, 6, 23);
+  background: linear-gradient(135deg, #111827 0%, #1F2937 100%);
 }
 
 .ctaContainer {
@@ -477,7 +478,7 @@
 
 .ctaDescription {
   font-size: 1.25rem;
-  color: rgb(203, 213, 225);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2rem;
 }
 
@@ -498,7 +499,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #1E3A8A;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
   color: white;
   padding: 1rem 2rem;
   border-radius: 9999px;
@@ -509,7 +510,8 @@
 }
 
 .ctaPrimaryButton:hover {
-  background-color: rgb(59, 130, 246);
+  background: linear-gradient(to right, #0EA5E9, #8B5CF6);
+  box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.5);
 }
 
 .ctaSecondaryButton {
@@ -525,5 +527,344 @@
 .ctaSecondaryButton:hover {
   border-color: white;
   color: white;
+}
+
+/* Service Detail View */
+.serviceDetail {
+  background-color: #FAFAFA;
+  color: #111827;
+  min-height: 100vh;
+  padding: 3rem 0;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.serviceDetailContent {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .serviceDetailContent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .serviceDetailContent {
+    padding: 0 2rem;
+  }
+}
+
+.serviceDetail .backButton {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #06B6D4;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease;
+  gap: 0.5rem;
+}
+
+.serviceDetail .backButton:hover {
+  color: #0EA5E9;
+  gap: 0.75rem;
+}
+
+.serviceDetail .backIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: transform 0.2s ease;
+}
+
+.serviceDetail .backButton:hover .backIcon {
+  transform: translateX(-4px);
+}
+
+.serviceHeader {
+  margin-bottom: 3rem;
+}
+
+.serviceCategory {
+  background: rgba(6, 182, 212, 0.15);
+  color: #06B6D4;
+  padding: 0.375rem 0.875rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.serviceTitleSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.serviceDetail .serviceIconContainer {
+  width: 5rem;
+  height: 5rem;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+}
+
+.serviceDetailIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: white;
+}
+
+.serviceDetailTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.2;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .serviceDetailTitle {
+    font-size: 3rem;
+  }
+}
+
+.serviceDetailDescription {
+  color: #4B5563;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.serviceMeta {
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+  font-size: 0.875rem;
+  gap: 1.5rem;
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.serviceMetaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.serviceImage {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 3rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.serviceImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceContent {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.serviceFeaturesTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .serviceFeaturesTitle {
+    font-size: 2.25rem;
+  }
+}
+
+.serviceFeaturesIntro {
+  color: #4B5563;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.serviceFeaturesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .serviceFeaturesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .serviceFeaturesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.serviceFeatureCard {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.serviceFeatureCard:hover {
+  border-color: rgba(6, 182, 212, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(6, 182, 212, 0.2);
+  background: #F9FAFB;
+}
+
+.serviceFeatureIcon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceFeatureDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #06B6D4;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(6, 182, 212, 0.1);
+}
+
+.serviceFeatureText {
+  font-size: 0.9375rem;
+  color: #4B5563;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.serviceCta {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(14, 165, 233, 0.1));
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.serviceCtaTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .serviceCtaTitle {
+    font-size: 2.25rem;
+  }
+}
+
+.serviceCtaDescription {
+  color: #4B5563;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.serviceCtaButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .serviceCtaButtons {
+    flex-direction: row;
+  }
+}
+
+.serviceCtaPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #06B6D4, #0EA5E9);
+  color: white;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px -2px rgba(6, 182, 212, 0.3);
+}
+
+.serviceCtaPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(6, 182, 212, 0.4);
+}
+
+.serviceCtaSecondary {
+  padding: 0.875rem 1.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.75rem;
+  color: #4B5563;
+  background: #FFFFFF;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.serviceCtaSecondary:hover {
+  border-color: #06B6D4;
+  color: #06B6D4;
+  background: rgba(6, 182, 212, 0.05);
 }
 

@@ -1,7 +1,7 @@
 /* InternshipsPage Styles */
 .pageContainer {
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
   min-height: 100vh;
   padding: 5rem 0;
 }
@@ -42,8 +42,8 @@
 
 /* Track Detail View */
 .trackDetail {
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
   min-height: 100vh;
   padding: 3rem 0;
   animation: fadeIn 0.5s ease-out;
@@ -103,7 +103,7 @@
 .trackDetail .trackTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-top: 0;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -119,10 +119,10 @@
 .trackDetail .trackMeta {
   display: flex;
   align-items: center;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   font-size: 0.875rem;
   gap: 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #E5E7EB;
   padding-bottom: 2rem;
   width: 100%;
   flex-wrap: wrap;
@@ -157,7 +157,7 @@
 }
 
 .trackDetail .trackContent {
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1.125rem;
   max-width: none;
@@ -165,7 +165,7 @@
 }
 
 .trackDetail .trackDescription {
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1.125rem;
   margin: 0;
@@ -176,7 +176,7 @@
 }
 
 .overviewContent p {
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1.125rem;
   margin: 0;
@@ -186,7 +186,7 @@
 .contentSection {
   margin-bottom: 3rem;
   padding-bottom: 2.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #E5E7EB;
   width: 100%;
 }
 
@@ -199,7 +199,7 @@
 .sectionTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@
 }
 
 .sectionIcon {
-  color: #60A5FA;
+  color: #06B6D4;
 }
 
 /* Program Flow */
@@ -242,7 +242,7 @@
   min-width: 2.5rem;
   width: 2.5rem;
   height: 2.5rem;
-  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+  background: linear-gradient(135deg, #06B6D4 0%, #0EA5E9 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -269,7 +269,7 @@
 }
 
 .flowContent p {
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1rem;
   margin: 0;
@@ -294,7 +294,7 @@
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1rem;
 }
@@ -314,13 +314,13 @@
 .trackSkillsSection {
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #E5E7EB;
 }
 
 .skillsTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -350,7 +350,7 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1rem;
 }
@@ -388,7 +388,7 @@
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   line-height: 1.75;
   font-size: 1rem;
 }
@@ -418,10 +418,10 @@
   align-items: center;
   gap: 0.75rem;
   padding: 1rem 1.25rem;
-  background-color: rgba(30, 58, 138, 0.1);
-  border: 1px solid rgba(30, 58, 138, 0.3);
+  background-color: rgba(6, 182, 212, 0.1);
+  border: 1px solid rgba(6, 182, 212, 0.3);
   border-radius: 0.5rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   transition: all 0.2s;
   width: 100%;
 }
@@ -440,7 +440,7 @@
 }
 
 .careerIcon {
-  color: #60A5FA;
+  color: #06B6D4;
   flex-shrink: 0;
 }
 
@@ -453,7 +453,7 @@
 .title {
   font-size: 2.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
@@ -465,7 +465,7 @@
 
 .subtitle {
   font-size: 1.125rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   max-width: 42rem;
   margin-left: auto;
   margin-right: auto;
@@ -486,8 +486,8 @@
 }
 
 .trackCard {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -504,13 +504,13 @@
 }
 
 .trackCard:hover {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  border-color: rgba(6, 182, 212, 0.4);
   transform: translateY(-0.25rem);
 }
 
 .trackCard:hover .trackTitle {
-  color: #60A5FA;
+  color: #06B6D4;
 }
 
 .trackImageContainer {
@@ -564,12 +564,12 @@
 .trackTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 0.5rem;
 }
 
 .trackDescription {
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   font-size: 0.875rem;
   margin-bottom: 1rem;
   line-height: 1.75;
@@ -585,7 +585,7 @@
 .skillTag {
   padding: 0.25rem 0.5rem;
   background-color: rgba(30, 58, 138, 0.2);
-  color: #60A5FA;
+  color: #06B6D4;
   font-size: 0.75rem;
   border-radius: 0.375rem;
   font-weight: 500;
@@ -597,8 +597,8 @@
   align-items: center;
   gap: 1rem;
   font-size: 0.875rem;
-  color: rgb(148, 163, 184);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #6B7280;
+  border-top: 1px solid #E5E7EB;
   padding-top: 1rem;
   margin-top: 0.5rem;
 }
@@ -612,11 +612,11 @@
 .trackCardFooter {
   margin-top: auto;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #E5E7EB;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #60A5FA;
+  color: #06B6D4;
   font-weight: 600;
   font-size: 0.875rem;
   transition: all 0.2s;
@@ -628,7 +628,7 @@
 }
 
 .trackCard:hover .trackCardFooter {
-  color: #93C5FD;
+  color: #0EA5E9;
 }
 
 .trackCard:hover .trackCardFooter svg {
@@ -637,15 +637,15 @@
 
 /* Application Form */
 .applicationForm {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1rem;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
   padding: 2rem;
   max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
-  border-top: 4px solid #1E3A8A;
+  border-top: 4px solid #06B6D4;
 }
 
 @media (min-width: 768px) {
@@ -657,7 +657,7 @@
 .formTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -718,7 +718,7 @@
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   margin-bottom: 0.25rem;
 }
 
@@ -727,34 +727,35 @@
 .textarea {
   width: 100%;
   padding: 0.75rem 1rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 0.5rem;
   outline: none;
   transition: all 0.2s;
-  color: white;
+  color: #111827;
 }
 
 .input::placeholder,
 .textarea::placeholder {
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
 }
 
 .input:focus,
 .select:focus,
 .textarea:focus {
-  border-color: #1E3A8A;
-  background-color: rgba(255, 255, 255, 0.08);
+  border-color: #06B6D4;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
 }
 
 .select {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.05);
+  color: #111827;
+  background-color: #FFFFFF;
 }
 
 .select option {
-  background-color: rgb(15, 23, 42);
-  color: white;
+  background-color: #FFFFFF;
+  color: #111827;
 }
 
 .fileUpload {
@@ -762,16 +763,16 @@
   display: flex;
   justify-content: center;
   padding: 1.25rem 1.5rem;
-  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border: 2px dashed #D1D5DB;
   border-radius: 0.5rem;
   transition: all 0.2s;
-  background-color: rgba(255, 255, 255, 0.02);
+  background-color: #FAFAFA;
   cursor: pointer;
 }
 
 .fileUpload:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.3);
+  background-color: #F3F4F6;
+  border-color: #9CA3AF;
 }
 
 .fileUploadLabel {
@@ -790,12 +791,12 @@
 .fileUploadIcon {
   width: 2.5rem;
   height: 2.5rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
 }
 
 .fileUploadText {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   font-weight: 500;
 }
 
@@ -805,7 +806,7 @@
 
 .fileUploadHint {
   font-size: 0.75rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
 }
 
 .fileUploadSelected {

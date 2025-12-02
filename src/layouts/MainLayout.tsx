@@ -3,7 +3,8 @@
  * Layout wrapper with Navbar and Footer
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { MessageCircle } from 'lucide-react';
@@ -12,9 +13,25 @@ export interface MainLayoutProps {
   children: React.ReactNode;
 }
 
+/**
+ * ScrollToTop Component
+ * Scrolls to top of page on route change
+ */
+const ScrollToTop: React.FC = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Scroll to top instantly when route changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', fontFamily: 'system-ui, sans-serif', color: '#1f2937' }}>
+      <ScrollToTop />
       <Navbar />
       <main style={{ flexGrow: 1 }}>{children}</main>
       <Footer />

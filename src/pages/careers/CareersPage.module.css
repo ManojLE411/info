@@ -1,8 +1,8 @@
 /* CareersPage Styles - Modern & Clean Design */
 
 .pageContainer {
-  background-color: rgb(2, 6, 23);
-  color: rgb(241, 245, 249);
+  background-color: #FAFAFA;
+  color: #111827;
   min-height: 100vh;
   position: relative;
 }
@@ -37,7 +37,7 @@
 .heroOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(15, 23, 42, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.85) 0%, rgba(14, 165, 233, 0.9) 100%);
 }
 
 .heroContent {
@@ -136,7 +136,7 @@
 
 .statLabel {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -201,7 +201,7 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgb(148, 163, 184);
+  color: #06B6D4;
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -209,7 +209,7 @@
 .sectionTitle {
   font-size: 2.5rem;
   font-weight: 800;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -222,7 +222,7 @@
 
 .sectionDescription {
   font-size: 1.125rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.7;
@@ -252,8 +252,8 @@
 }
 
 .benefitCard {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   padding: 2rem;
   text-align: center;
@@ -275,10 +275,10 @@
 }
 
 .benefitCard:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: #FFFFFF;
+  border-color: rgba(6, 182, 212, 0.4);
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
 }
 
 .benefitCard:hover::before {
@@ -293,7 +293,6 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.5rem;
-  color: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
@@ -321,13 +320,13 @@
 .benefitTitle {
   font-size: 1.25rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 0.75rem;
 }
 
 .benefitDescription {
   font-size: 0.9375rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.6;
 }
 
@@ -350,8 +349,8 @@
 }
 
 .jobCard {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   padding: 2rem;
   transition: all 0.3s ease;
@@ -372,10 +371,10 @@
 }
 
 .jobCard:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: #FFFFFF;
+  border-color: rgba(6, 182, 212, 0.4);
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
 }
 
 .jobCard:hover::before {
@@ -397,14 +396,14 @@
 .jobTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 0.5rem;
   line-height: 1.3;
 }
 
 .jobDepartment {
   font-size: 0.875rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 600;
@@ -412,7 +411,7 @@
 
 .jobDescription {
   font-size: 0.9375rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -431,14 +430,14 @@
 }
 
 .jobMetaIcon {
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   display: flex;
   align-items: center;
 }
 
 .jobMetaText {
   font-size: 0.875rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
 }
 
 .jobBadge {
@@ -453,43 +452,43 @@
 
 .badgeFullTime {
   background: rgba(34, 197, 94, 0.15);
-  color: rgb(187, 247, 208);
+  color: rgb(24, 143, 66);
   border: 1px solid rgba(34, 197, 94, 0.3);
 }
 
 .badgePartTime {
   background: rgba(249, 115, 22, 0.15);
-  color: rgb(254, 215, 170);
+  color: rgb(203, 119, 23);
   border: 1px solid rgba(249, 115, 22, 0.3);
 }
 
 .badgeContract {
   background: rgba(168, 85, 247, 0.15);
-  color: rgb(221, 214, 254);
+  color: rgb(73, 48, 186);
   border: 1px solid rgba(168, 85, 247, 0.3);
 }
 
 .badgeRemote {
   background: rgba(59, 130, 246, 0.15);
-  color: rgb(191, 219, 254);
+  color: rgb(25, 61, 105);
   border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
 .badgeHybrid {
   background: rgba(139, 92, 246, 0.15);
-  color: rgb(221, 214, 254);
+  color: rgb(50, 33, 129);
   border: 1px solid rgba(139, 92, 246, 0.3);
 }
 
 .badgeOnSite {
   background: rgba(236, 72, 153, 0.15);
-  color: rgb(251, 207, 232);
+  color: rgb(161, 30, 104);
   border: 1px solid rgba(236, 72, 153, 0.3);
 }
 
 .badgeDefault {
   background: rgba(255, 255, 255, 0.1);
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -498,7 +497,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(139, 92, 246));
+  background: linear-gradient(135deg, #06B6D4, #8B5CF6);
   color: white;
   border: none;
   border-radius: 0.75rem;
@@ -523,13 +522,13 @@
 .emptyState {
   text-align: center;
   padding: 4rem 2rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
 }
 
 .emptyIcon {
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
   margin-bottom: 1.5rem;
   opacity: 0.5;
 }
@@ -537,13 +536,13 @@
 .emptyTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 0.75rem;
 }
 
 .emptyText {
   font-size: 1rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   margin-bottom: 2rem;
   max-width: 500px;
   margin-left: auto;
@@ -554,21 +553,21 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: rgb(96, 165, 250);
+  color: #06B6D4;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .emptyLink:hover {
-  color: rgb(147, 197, 253);
+  color: #0EA5E9;
   gap: 0.75rem;
 }
 
 /* Footer CTA */
 .footerCta {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(14, 165, 233, 0.1));
+  border: 1px solid rgba(6, 182, 212, 0.2);
   border-radius: 1.5rem;
   padding: 3rem 2rem;
   text-align: center;
@@ -582,20 +581,20 @@
 .footerCtaTitle {
   font-size: 1.75rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .footerCtaText {
   font-size: 1rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
 
 .footerCtaLink {
   display: inline-block;
-  color: rgb(96, 165, 250);
+  color: #06B6D4;
   font-weight: 600;
   font-size: 1.125rem;
   text-decoration: none;
@@ -603,7 +602,7 @@
 }
 
 .footerCtaLink:hover {
-  color: rgb(147, 197, 253);
+  color: #0EA5E9;
   text-decoration: underline;
 }
 
@@ -620,6 +619,13 @@
   padding: 1rem;
   overflow-y: auto;
   animation: fadeIn 0.2s ease;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.modalOverlay::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
 
 @keyframes fadeIn {
@@ -632,8 +638,8 @@
 }
 
 .modalContent {
-  background: rgb(15, 23, 42);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 1.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   max-width: 600px;
@@ -642,6 +648,13 @@
   overflow-y: auto;
   position: relative;
   animation: slideUp 0.3s ease;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.modalContent::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
 
 @keyframes slideUp {
@@ -660,26 +673,26 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #E5E7EB;
 }
 
 .modalTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin: 0 0 0.25rem 0;
 }
 
 .modalSubtitle {
   font-size: 0.9375rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   margin: 0;
 }
 
 .modalCloseButton {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: rgb(203, 213, 225);
+  background: #F3F4F6;
+  border: 1px solid #E5E7EB;
+  color: #6B7280;
   cursor: pointer;
   padding: 0.5rem;
   display: flex;
@@ -692,9 +705,9 @@
 }
 
 .modalCloseButton:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-  border-color: rgba(255, 255, 255, 0.2);
+  background: #E5E7EB;
+  color: #111827;
+  border-color: #D1D5DB;
 }
 
 /* Application Form */
@@ -726,7 +739,7 @@
   display: block;
   font-size: 0.875rem;
   font-weight: 600;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   margin-bottom: 0.5rem;
 }
 
@@ -735,7 +748,7 @@
 }
 
 .optional {
-  color: rgb(148, 163, 184);
+  color: #6B7280;
   font-weight: 400;
 }
 
@@ -743,26 +756,26 @@
 .textarea {
   width: 100%;
   padding: 0.875rem 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 0.75rem;
   outline: none;
   transition: all 0.2s ease;
-  color: white;
+  color: #111827;
   font-family: inherit;
   font-size: 0.9375rem;
 }
 
 .input::placeholder,
 .textarea::placeholder {
-  color: rgb(148, 163, 184);
+  color: #9CA3AF;
 }
 
 .input:focus,
 .textarea:focus {
-  border-color: rgb(59, 130, 246);
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  border-color: #06B6D4;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
 }
 
 .textarea {
@@ -787,19 +800,19 @@
   justify-content: center;
   gap: 0.75rem;
   padding: 2.5rem 1.5rem;
-  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border: 2px dashed #D1D5DB;
   border-radius: 0.75rem;
-  background: rgba(255, 255, 255, 0.02);
+  background: #FAFAFA;
   transition: all 0.2s ease;
 }
 
 .fileUploadLabel:hover .fileUploadContent {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: #F3F4F6;
+  border-color: #9CA3AF;
 }
 
 .fileUploadIcon {
-  color: rgb(148, 163, 184);
+  color: #6B7280;
 }
 
 .fileUploadText {
@@ -812,24 +825,24 @@
 
 .fileUploadMainText {
   font-size: 0.9375rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   font-weight: 500;
 }
 
 .fileUploadHint {
   font-size: 0.8125rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
 }
 
 .fileName {
   font-size: 0.9375rem;
-  color: rgb(203, 213, 225);
+  color: #4B5563;
   font-weight: 500;
 }
 
 .fileSize {
   font-size: 0.8125rem;
-  color: rgb(148, 163, 184);
+  color: #6B7280;
 }
 
 .fileInput {
@@ -842,14 +855,14 @@
   justify-content: flex-end;
   margin-top: 0.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #E5E7EB;
 }
 
 .cancelButton {
   padding: 0.875rem 1.75rem;
   background: transparent;
-  color: rgb(203, 213, 225);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #6B7280;
+  border: 1px solid #E5E7EB;
   border-radius: 0.75rem;
   font-weight: 600;
   font-size: 0.9375rem;
@@ -858,9 +871,9 @@
 }
 
 .cancelButton:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.3);
-  color: white;
+  background: #F3F4F6;
+  border-color: #D1D5DB;
+  color: #111827;
 }
 
 .submitButton {
@@ -868,7 +881,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 1.75rem;
-  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(139, 92, 246));
+  background: linear-gradient(135deg, #06B6D4, #8B5CF6);
   color: white;
   border: none;
   border-radius: 0.75rem;
@@ -908,13 +921,13 @@
 .successTitle {
   font-size: 1.75rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-bottom: 1rem;
 }
 
 .successText {
   font-size: 1rem;
-  color: rgb(203, 213, 225);
+  color: #6B7280;
   line-height: 1.7;
   max-width: 400px;
   margin: 0 auto;

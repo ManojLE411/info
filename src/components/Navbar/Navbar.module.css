@@ -1,12 +1,12 @@
 /* Navbar Component Styles */
 
 .nav {
-  background: linear-gradient(to right, #1E3A8A, #1e40af, #1E3A8A);
+  background: linear-gradient(to right, #06B6D4, #0EA5E9, #06B6D4);
   color: white;
   position: sticky;
   top: 0;
   z-index: 50;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   backdrop-filter: blur(4px);
 }
 
@@ -73,7 +73,7 @@
 
 .logoSubtitle {
   font-size: 0.75rem;
-  color: rgb(209, 213, 219);
+  color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.1em;
 }
 
@@ -106,17 +106,17 @@
 }
 
 .navLinkActive {
-  background-color: #3b82f6;
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .navLinkInactive {
-  color: rgb(229, 231, 235);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .navLinkInactive:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
   color: white;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .menuToggleButton:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Mobile Menu */
@@ -191,16 +191,15 @@
 }
 
 .mobileNavLinkActive {
-  background-color: #3b82f6;
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
 .mobileNavLinkInactive {
-  color: rgb(229, 231, 235);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .mobileNavLinkInactive:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
   color: white;
 }
-
